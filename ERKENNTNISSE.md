@@ -279,8 +279,8 @@ UPS ist das wertlos: **Jede gültige UPS-Datei hat denselben CRC32,
 
 Der Grund steckt im Format. Eine UPS-Datei endet mit der Prüfsumme ihres
 eigenen Inhalts. Hängt man an Daten deren CRC32 an, ergibt die Prüfsumme des
-Ganzen immer denselben festen Wert — eine Eigenschaft des Verfahrens, kein
-Zufall.
+Ganzen immer denselben festen Wert. Das ist eine Eigenschaft des Verfahrens,
+kein Zufall.
 
 Nachgeprüft an zwei völlig verschiedenen Dateien: Unbounds offiziellem Patch
 mit 26 MB und unserem mit 1,4 MB. Beide `2144DF1C`.

@@ -2,7 +2,7 @@
   <img src="bilder/logo.png" alt="Unbound Deutsch" width="620">
 </p>
 
-# Pokémon Unbound 2.1.1.1 — deutsche Übersetzung
+# Pokémon Unbound 2.1.1.1 auf Deutsch
 
 Eine deutsche Übersetzung von **Pokémon Unbound**, dem GBA-ROM-Hack von
 [Skeli789](https://discord.gg/k34Jm4T). Weitergegeben wird ausschließlich eine
@@ -22,7 +22,7 @@ steht weiter unten unter [Einbau](#einbau).
 | ![Dialog](bilder/dialog.png) | ![Pokédex](bilder/pokedex.png) |
 | ![Attacken](bilder/attacken.png) | ![Optionen](bilder/optionen.png) |
 
-Oben links ein Dialog — Ortsnamen wie `Cinder Volcano` bleiben absichtlich
+Oben links ein Dialog. Ortsnamen wie `Cinder Volcano` bleiben absichtlich
 englisch. Oben rechts das Inhaltsverzeichnis des Pokédex, unten links das
 Attackenmenü mit den Beschreibungen, unten rechts die Einstellungen.
 
@@ -85,7 +85,7 @@ Aufteilung des Bestands:
 **Auslesen.** Ein eigener Dumper, der byteweise nach Zeigern sucht statt nur
 an durch vier teilbaren Adressen. CFRU bettet Skripte ein, deren
 `loadpointer`-Operanden oft schief stehen. Allein diese eine Entscheidung
-machte 5.481 Textstellen sichtbar, die sonst gefehlt hätten — darunter die
+machte 5.481 Textstellen sichtbar, die sonst gefehlt hätten, darunter die
 komplette Einführung.
 
 **Übersetzen.** In Paketen, mit einer Prüfung nach jedem Paket: Platzhalter
@@ -172,7 +172,7 @@ als „Pokemon Fire Red (U)(Squirrels)". Hier gibt es sie nicht.
 Skeli789s Patch auf Feuerrot anwenden. Ergebnis: CRC32 `4B3D4957`.
 
 Den offiziellen Patch und die Anleitung dazu gibt es auf **[Unbounds
-Discord](https://discord.gg/k34Jm4T)** — das ist die Adresse, die Skeli789 in
+Discord](https://discord.gg/k34Jm4T)**. Das ist die Adresse, die Skeli789 in
 seiner Readme selbst nennt. Dort stehen auch die bekannten Fehler und die
 Mystery-Gift-Codes für die Pokémon, die man sonst nicht bekommt.
 
@@ -190,7 +190,7 @@ Unbound 2.1.1 anwenden. Ergebnis: CRC32 `1998B308`.
 ### Womit
 
 Es muss **UPS** können. Lunar IPS und Floating IPS können das **nicht**, die
-beherrschen nur IPS und BPS — und melden dann einen Fehler, der aussieht, als
+beherrschen nur IPS und BPS. Sie melden dann einen Fehler, der aussieht, als
 wäre der Patch kaputt.
 
 Passend sind Rom Patcher JS im Browser, NUPS unter Windows, MultiPatch auf dem
@@ -217,7 +217,7 @@ Alles nochmal zum Mitnehmen in **[LIESMICH.txt](LIESMICH.txt)**, Prüfsummen in
 
 ## Für andere Übersetzungsprojekte
 
-**[ERKENNTNISSE.md](ERKENNTNISSE.md)** — zwölf Abschnitte darüber, was beim
+**[ERKENNTNISSE.md](ERKENNTNISSE.md)**: dreizehn Abschnitte darüber, was beim
 Auslesen und Zurückschreiben von GBA-Text schiefgeht. Unabhängig von der
 Zielsprache und vom Spiel.
 

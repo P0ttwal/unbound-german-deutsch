@@ -1,4 +1,4 @@
-POKEMON UNBOUND 2.1.1.1 -- DEUTSCHE UEBERSETZUNG
+POKEMON UNBOUND 2.1.1.1 AUF DEUTSCH
 ================================================
 
 Eine deutsche Uebersetzung von Pokemon Unbound, dem GBA-ROM-Hack von
@@ -16,11 +16,30 @@ Falls du noch kein Unbound hast, entsteht es aus Pokemon Feuerrot (US,
 Version 1.0, CRC32 DD88761C) und Skeli789s offiziellem Patch. Beides musst du
 dir selbst besorgen, hier gibt es weder das eine noch das andere.
 
+Den offiziellen Patch und die Anleitung dazu gibt es auf Unbounds Discord:
+
+    https://discord.gg/k34Jm4T
+
+Das ist die Adresse, die Skeli789 in seiner Readme selbst nennt. Dort stehen
+auch die bekannten Fehler und die Mystery-Gift-Codes fuer die Pokemon, die man
+sonst nicht bekommt.
+
 Dazu ein Programm, das UPS-Patches anwenden kann.
 
-  ACHTUNG: Lunar IPS und Floating IPS koennen das NICHT, die beherrschen nur
-  IPS und BPS. Passend sind Rom Patcher JS im Browser, NUPS unter Windows,
-  MultiPatch auf dem Mac oder UniPatcher unter Android.
+  ACHTUNG: Lunar IPS und Floating IPS koennen das NICHT. Die beherrschen nur
+  IPS und BPS und melden dann einen Fehler, der aussieht, als waere der Patch
+  kaputt.
+
+  Passend sind:
+
+    Rom Patcher JS   https://www.marcrobledo.com/RomPatcher.js/
+                     laeuft im Browser, installiert nichts
+    NUPS             Windows
+    MultiPatch       Mac
+    UniPatcher       Android
+
+  Rom Patcher JS ist auch das Werkzeug, das Skeli789 in Unbounds eigener
+  Anleitung empfiehlt.
 
 
 EINBAUEN
