@@ -2,8 +2,6 @@
   <img src="bilder/logo.png" alt="Unbound Deutsch" width="620">
 </p>
 
-<p align="center"><img src="bilder/logo.png" alt="Unbound Deutsch" width="560"></p>
-
 # Pokémon Unbound 2.1.1.1 — deutsche Übersetzung
 
 Eine deutsche Übersetzung von **Pokémon Unbound**, dem GBA-ROM-Hack von
