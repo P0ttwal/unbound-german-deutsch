@@ -240,6 +240,10 @@ Pokémon Unbound stammt von **Skeli789**. Diese Übersetzung ist eine
 abgeleitete Arbeit. Sollte ihm die Weitergabe nicht recht sein, ziehe ich den
 Patch auf Zuruf zurück.
 
+Die Notizen stehen unter CC0, der übersetzte Text unter CC BY-SA 4.0. Für den
+Patch als Ganzes kann ich keine Lizenz vergeben, weil darin fremdes Werk
+steckt. Ausführlich in **[LIZENZ.md](LIZENZ.md)**.
+
 Hier gibt es **kein ROM** und **kein Feuerrot**, nur die Differenz zwischen
 englischem und deutschem Unbound. Bitte gib niemals ein fertig gepatchtes ROM
 weiter, sondern nur die Patchdatei.
