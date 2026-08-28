@@ -8,7 +8,10 @@ Eine deutsche Übersetzung von **Pokémon Unbound**, dem GBA-ROM-Hack von
 [Skeli789](https://discord.gg/k34Jm4T). Weitergegeben wird ausschließlich eine
 Patchdatei, niemals ein ROM.
 
-**[→ Herunterladen](https://github.com/P0ttwal/unbound-german-deutsch/releases/latest)**  ·  ZIP mit Patch, Anleitung und Prüfsummen, 1,1 MB
+## [→ Patch herunterladen](Unbound_DE_uebersetzung.ups)
+
+`Unbound_DE_uebersetzung.ups`, 1,4 MB. Wie du daraus ein spielbares ROM machst,
+steht weiter unten unter [Einbau](#einbau).
 
 ---
 
@@ -155,20 +158,60 @@ Neu gefangene bekommen die deutschen.
 
 ---
 
-## Einbau, kurz
+## Einbau
 
-Du brauchst ein **Unbound 2.1.1** mit CRC32 `4B3D4957` und ein Programm für
-**UPS**-Patches. Lunar IPS und Floating IPS können das **nicht**.
+Du brauchst drei Dinge, und zwei davon musst du dir selbst besorgen.
 
-1. Skeli789s Patch auf Pokémon Feuerrot (US 1.0) anwenden → `4B3D4957`
-2. `Unbound_DE_uebersetzung.ups` darauf anwenden → `1998B308`
+### 1. Pokémon Feuerrot
 
-Ausführlich in der `LIESMICH.txt` im Archiv.
+Die **US-Fassung 1.0**, CRC32 `DD88761C`. In Unbounds eigener Readme steht sie
+als „Pokemon Fire Red (U)(Squirrels)". Hier gibt es sie nicht.
+
+### 2. Pokémon Unbound 2.1.1
+
+Skeli789s Patch auf Feuerrot anwenden. Ergebnis: CRC32 `4B3D4957`.
+
+Den offiziellen Patch und die Anleitung dazu gibt es auf **[Unbounds
+Discord](https://discord.gg/k34Jm4T)** — das ist die Adresse, die Skeli789 in
+seiner Readme selbst nennt. Dort stehen auch die bekannten Fehler und die
+Mystery-Gift-Codes für die Pokémon, die man sonst nicht bekommt.
+
+Skelis Anleitung empfiehlt **[Rom Patcher
+JS](https://www.marcrobledo.com/RomPatcher.js/)**, das im Browser läuft und
+nichts installiert.
+
+Hast du Unbound schon, überspring diesen Schritt.
+
+### 3. Diese Übersetzung
+
+**[Unbound_DE_uebersetzung.ups](Unbound_DE_uebersetzung.ups)** auf dein
+Unbound 2.1.1 anwenden. Ergebnis: CRC32 `1998B308`.
+
+### Womit
+
+Es muss **UPS** können. Lunar IPS und Floating IPS können das **nicht**, die
+beherrschen nur IPS und BPS — und melden dann einen Fehler, der aussieht, als
+wäre der Patch kaputt.
+
+Passend sind Rom Patcher JS im Browser, NUPS unter Windows, MultiPatch auf dem
+Mac und UniPatcher unter Android.
+
+### Warum zwei Schritte
+
+Ein Patch, der beides auf einmal macht, müsste Unbound selbst enthalten. Das
+ist nicht meins zum Weitergeben.
+
+Ein UPS-Patch trägt die Prüfsumme der erwarteten Ausgangsdatei in sich. Nimmst
+du die falsche, bricht das Programm ab, statt dir stillschweigend eine kaputte
+Datei zu bauen. Kommt am Ende `1998B308` heraus, ist alles richtig.
 
 **Wenn dein Emulator abstürzt:** erst die Savestates löschen und das
 automatische Laden abschalten. Ein Savestate aus dem englischen ROM enthält
 Adressen, die im deutschen woanders liegen, und erzeugt Abstürze, die nichts
 mit der Übersetzung zu tun haben.
+
+Alles nochmal zum Mitnehmen in **[LIESMICH.txt](LIESMICH.txt)**, Prüfsummen in
+**[PRUEFSUMMEN.txt](PRUEFSUMMEN.txt)**.
 
 ---
 

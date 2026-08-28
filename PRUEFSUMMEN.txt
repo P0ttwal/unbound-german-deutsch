@@ -1,0 +1,31 @@
+PRUEFSUMMEN
+===========
+
+Damit du pruefen kannst, ob alles stimmt.
+
+AUSGANGSDATEI (musst du selbst haben)
+-------------------------------------
+  Pokemon Feuerrot (US) Version 1.0     CRC32  DD88761C
+  Pokemon Unbound 2.1.1                 CRC32  4B3D4957
+
+DIESE PATCHDATEI
+----------------
+  Unbound_DE_uebersetzung.ups           Groesse 1415169 Byte
+                                        MD5    95209e4265dedd41cdd44d8985b76d4a
+                                        SHA256 821c8035623ab272efd164c81a0d3453deefe2b0d278db6c1e162fe6c1b7ac2a
+
+ERGEBNIS NACH DEM PATCHEN
+-------------------------
+  Unbound, deutsch                      CRC32  1998B308
+                                        Groesse 33554432 Byte
+
+Kommt bei dir 1998B308 heraus, ist alles richtig gelaufen.
+Kommt etwas anderes heraus, hattest du die falsche Ausgangsdatei.
+
+HINWEIS ZUM CRC32 EINER UPS-DATEI
+---------------------------------
+Fuer die Patchdatei selbst steht hier absichtlich kein CRC32. Eine
+UPS-Datei endet mit der Pruefsumme ihres eigenen Inhalts, und dadurch
+ergibt der CRC32 der ganzen Datei immer denselben festen Wert:
+2144DF1C. Den haben ALLE gueltigen UPS-Dateien. Er sagt nichts darueber
+aus, welchen Patch du vor dir hast. Nimm MD5 oder SHA256.

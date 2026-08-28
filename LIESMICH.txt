@@ -1,0 +1,149 @@
+POKEMON UNBOUND 2.1.1.1 -- DEUTSCHE UEBERSETZUNG
+================================================
+
+Eine deutsche Uebersetzung von Pokemon Unbound, dem GBA-ROM-Hack von
+Skeli789. Weitergegeben wird ausschliesslich diese Patchdatei, niemals ein
+ROM.
+
+
+WAS DU BRAUCHST
+---------------
+
+Ein Unbound-ROM der Version 2.1.1, CRC32 4B3D4957, 32 MB. Hat deine Datei
+eine andere Pruefsumme, passt der Patch nicht und sagt das auch.
+
+Falls du noch kein Unbound hast, entsteht es aus Pokemon Feuerrot (US,
+Version 1.0, CRC32 DD88761C) und Skeli789s offiziellem Patch. Beides musst du
+dir selbst besorgen, hier gibt es weder das eine noch das andere.
+
+Dazu ein Programm, das UPS-Patches anwenden kann.
+
+  ACHTUNG: Lunar IPS und Floating IPS koennen das NICHT, die beherrschen nur
+  IPS und BPS. Passend sind Rom Patcher JS im Browser, NUPS unter Windows,
+  MultiPatch auf dem Mac oder UniPatcher unter Android.
+
+
+EINBAUEN
+--------
+
+Zwei Schritte, in dieser Reihenfolge:
+
+  1. Skeli789s Patch auf Feuerrot anwenden.
+     Ergebnis: Unbound 2.1.1, CRC32 4B3D4957
+
+  2. Unbound_DE_uebersetzung.ups darauf anwenden.
+     Ergebnis: CRC32 1998B308
+
+Hast du Unbound schon, entfaellt Schritt 1.
+
+Ein UPS-Patch traegt die Pruefsumme der erwarteten Ausgangsdatei in sich.
+Nimmst du die falsche, bricht das Patchprogramm ab, statt dir stillschweigend
+eine kaputte Datei zu bauen. Kommt am Ende 1998B308 heraus, ist alles
+richtig.
+
+Und nein, es gibt keinen Patch, der beide Schritte auf einmal macht. Der
+muesste Unbound selbst enthalten, und das ist nicht meins zum Weitergeben.
+
+
+WENN DEIN EMULATOR ABSTUERZT
+---------------------------
+
+Erst die Savestates pruefen, bevor du einen Fehler meldest. Viele Geraete und
+Emulatoren laden beim Start automatisch einen Savestate statt des
+Spielstands. Ein Savestate aus dem englischen ROM enthaelt Adressen, die im
+deutschen woanders liegen. Das erzeugt Abstuerze, die nichts mit der
+Uebersetzung zu tun haben.
+
+Also:
+
+  - Automatisches Laden UND Speichern von Savestates abschalten
+  - Alte Savestates zu diesem Spiel loeschen
+  - Ueber den Titelbildschirm mit "Continue" laden
+
+Der Spielstand selbst (.sav oder .srm) bleibt gueltig und laesst sich
+zwischen englischer und deutscher Fassung hin und her nehmen. Beides ist
+dieselbe Datei, nur mit anderer Endung.
+
+
+WAS DEUTSCH IST
+---------------
+
+Dialoge, Beschreibungen, Menues, Kampfmeldungen, Pokedex-Eintraege,
+Attackenbeschreibungen, Faehigkeiten, Items.
+
+
+DIE TYP-SYMBOLE BLEIBEN ENGLISCH
+--------------------------------
+
+Auf der Statusseite und im Attackenmenue zeigt das Spiel die Pokemon-Typen
+als farbige Symbole. Die sind GRAFIK, kein Text: FIGHT, DRAGON, BUG stehen
+dort als Bild in den Kacheln. Dasselbe gilt fuer POWER und ACCURACY im
+Attackenmenue. Aendern liesse sich das nur durch Bearbeiten der Grafiken, und
+das ist eine andere Art von Arbeit.
+
+Ueberall dort, wo der Typ als Text erscheint, steht er deutsch: KAMPF, FLUG,
+GIFT, BODEN, FELS, KAEFER, GEIST, STAHL, FEUER, WASSER, GRAS, BLITZ, PSYCHO,
+EIS, DRACHE, DUNKEL.
+
+
+WAS SONST ENGLISCH BLEIBT, UND WARUM
+------------------------------------
+
+Orts- und Personennamen. Bellin Town bleibt Bellin Town. Wer online nach
+Hilfe sucht, findet sonst nichts.
+
+Unbound-eigene Attacken und Faehigkeiten. Fuer die gibt es keinen offiziellen
+deutschen Namen, und einen zu erfinden hilft niemandem.
+
+Der Abspann. Namen von Menschen werden nicht uebersetzt.
+
+18 einzelne Textstellen. Dort beginnt mitten im Satz ein zweiter Eintrag, den
+das Spiel ebenfalls anspringt. Fuer den deutschen Text bleiben dadurch ein
+bis zwei Bytes uebrig.
+
+
+SPITZNAMEN
+----------
+
+Faengst du ein Pokemon, ohne ihm einen Namen zu geben, schreibt das Spiel den
+Artnamen in diesem Moment fest in den Spielstand. Wer mitten im Spiel auf die
+deutsche Fassung wechselt, behaelt deshalb die englischen Namen der bereits
+gefangenen Pokemon. Neu gefangene bekommen die deutschen.
+
+
+WIE ES ENTSTANDEN IST
+---------------------
+
+Ich habe das fuer meine beiden Soehne gemacht. Der Aeltere kommt mit dem
+Englischen gerade so zurecht, hat mich aber im Minutentakt um Hilfe gefragt,
+der Juengere kam gar nicht rein.
+
+Es ist deshalb kein liebevoll von Hand gepflegtes Fan-Projekt. Die
+Uebersetzung ist KI-gestuetzt, vieles habe ich nachgebessert, aber der
+Massstab war "meine Kinder koennen das spielen und haben Spass dabei", nicht
+"das liest sich wie eine offizielle Lokalisierung". An manchen Stellen ist
+gekuerzt worden, weil der deutsche Satz sonst nicht in den vorhandenen Platz
+gepasst haette. Dabei sind Details verloren gegangen.
+
+Zur Groessenordnung: Es sind rund 237.000 Woerter. Ein Berufsuebersetzer
+braeuchte dafuer etwa ein halbes Jahr Vollzeit.
+
+Wenn dir das reicht, viel Spass. Wenn nicht, ist das voellig in Ordnung.
+
+
+ZU SKELI789
+-----------
+
+Pokemon Unbound stammt von Skeli789. Diese Uebersetzung ist eine abgeleitete
+Arbeit und wird ohne seine ausdrueckliche Zustimmung weitergegeben, weil auf
+meine Anfrage keine Antwort kam. Sollte ihm das nicht recht sein, ziehe ich
+den Patch auf Zuruf zurueck.
+
+Bitte gib niemals ein fertig gepatchtes ROM weiter, sondern nur diese
+Patchdatei.
+
+
+DANK
+----
+
+An Skeli789 fuer Unbound. Ohne den Hack gaebe es hier nichts zu uebersetzen.

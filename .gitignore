@@ -8,20 +8,22 @@
 *.srm
 *.st*
 
-# Patchdateien und Archive gehoeren an ein Release, nicht ins Repository.
+# Patchdateien und Archive: grundsaetzlich gesperrt.
 #
-# Zwei Gruende. Erstens waechst die Versionsgeschichte sonst mit jeder Fassung
-# um ein bis zwei Megabyte, und die alten bekommt man nicht mehr heraus, ohne
-# die Geschichte umzuschreiben.
-#
-# Zweitens, und wichtiger: Es gibt zwei Patchdateien. Die kleine gegen Unbound
+# Es gibt zwei Patchdateien. Die kleine gegen Unbound
 # 2.1.1 enthaelt nur die Uebersetzung. Die grosse gegen FireRed enthaelt
 # Unbound selbst und darf nirgendwo hin. Beide heissen .ups. Eine Sperre, die
 # nicht zwischen ihnen unterscheidet, ist hier die sichere.
 #
-# Zum Veroeffentlichen: als Anhang an ein Release hochladen.
+# Ausgenommen ist nur die eine Datei unten.
 *.ups
 *.ips
 *.bps
 *.zip
 *.7z
+
+# Ausnahme: der kleine Patch gegen Unbound 2.1.1. Er enthaelt nur die
+# Uebersetzung und ist das, was hier verteilt wird. Die Sperre darueber bleibt
+# fuer alles andere bestehen — besonders fuer die 25-MB-Fassung gegen FireRed,
+# in der Unbound selbst steckt.
+!Unbound_DE_uebersetzung.ups
